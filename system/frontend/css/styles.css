@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(255, 105, 180);
+}
+
+.login-form {
+  background-color: rgb(255, 204, 229);
+  border-radius: 10px;
+  padding: 40px;
+  padding-right: 60px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 120px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(30, 80, 170);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: large;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: rgb(0, 128, 255);
+}
+
+/* error */
+#name-error,
+#pass-error,
+#c-pass-error {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
